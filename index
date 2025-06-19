@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions Puissantes</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6}
+        .section{background:#F0F1F9;padding:80px 24px;min-height:100vh}
+        .container{max-width:1200px;margin:0 auto}
+        .header{text-align:center;margin-bottom:64px}
+        .title{color:#57478D;font-size:3rem;font-weight:bold;margin-bottom:24px}
+        .desc{color:#57478D;font-size:1.125rem;max-width:800px;margin:0 auto 32px;line-height:1.7}
+        .desc p{margin-bottom:16px;font-weight:500}
+        .tips{text-align:left;max-width:500px;margin:0 auto}
+        .tips h3{font-weight:600;margin-bottom:8px;color:#57478D}
+        .tips ul{list-style:none;font-size:1rem}
+        .tips li{margin-bottom:4px;color:#57478D}
+        .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:32px;margin-bottom:64px}
+        .grid .card:nth-child(5){grid-column-start:2}
+        .card-wrap{position:relative;height:520px;perspective:1000px}
+        .card{position:absolute;width:100%;height:100%;transition:transform .7s;transform-style:preserve-3d}
+        .card-wrap:hover .card{transform:rotateY(180deg)}
+        .face{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:16px;box-shadow:0 10px 15px -3px rgba(0,0,0,.1)}
+        .front{background:#57478D;padding:24px;display:flex;align-items:center;justify-content:center}
+        .front h3{color:white;font-size:1.125rem;font-weight:bold;text-align:center;line-height:1.3}
+        .back{background:#F4C675;padding:24px;transform:rotateY(180deg);overflow-y:auto}
+        .questions{list-style:none}
+        .questions li{display:flex;align-items:flex-start;margin-bottom:12px;color:#57478D}
+        .bullet{width:8px;height:8px;border-radius:50%;background:#57478D;margin:8px 12px 0 0;flex-shrink:0}
+        .text{font-size:.875rem;font-weight:500;line-height:1.5}
+        .tip{text-align:center}
+        .tip-box{display:inline-block;background:#F4C675;padding:32px;border-radius:16px;box-shadow:0 10px 15px -3px rgba(0,0,0,.1);max-width:800px}
+        .tip-title{color:#57478D;font-size:1.5rem;font-weight:bold;margin-bottom:16px}
+        .tip-text{color:#57478D;font-size:1.125rem;line-height:1.6}
+        @media(max-width:768px){.title{font-size:2rem}.section{padding:60px 16px}.grid{grid-template-columns:1fr;gap:24px}.grid .card:nth-child(5){grid-column-start:1}}
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <h2 class="title">🎁 BONUS N°3 : QUESTIONS PUISSANTES</h2>
+                <div class="desc">
+                    <p>Ces questions sont conçues pour t'aider à développer une connexion plus profonde avec ton oracle, renforcer ton intuition et obtenir des réponses claires et éclairantes.</p>
+                    <div class="tips">
+                        <h3>💡 Utilise-les :</h3>
+                        <ul>
+                            <li>• Avant un tirage, pour poser une question précise</li>
+                            <li>• En séance, pour explorer une problématique</li>
+                            <li>• En auto-tirage, pour te recentrer ou progresser</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="face front"><h3>🌟 Abondance et Réalisation</h3></div>
+                        <div class="face back">
+                            <ul class="questions">
+                                <li><span class="bullet"></span><span class="text">Comment attirer davantage d'abondance dans ma vie ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Que dois-je faire pour débloquer mon potentiel d'abondance ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Quelle leçon devrais-je apprendre pour avancer ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Que puis-je faire concrètement pour améliorer mon bien-être quotidien ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Que puis-je attendre de ce prochain trimestre dans ma vie ?</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="face front"><h3>💔 Relations et Vie Amoureuse</h3></div>
+                        <div class="face back">
+                            <ul class="questions">
+                                <li><span class="bullet"></span><span class="text">Pourquoi suis-je encore célibataire ? Qu'est-ce qui m'en empêche ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment puis-je attirer mon âme sœur dans ma vie ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Pourquoi me retrouve-je toujours dans des relations similaires ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Ma relation avec [X] est-elle saine ? Comment la renforcer ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Pourquoi est-ce que je suis toujours célibataire ?</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="face front"><h3>🌿 Blessures, Blocages et Émotions</h3></div>
+                        <div class="face back">
+                            <ul class="questions">
+                                <li><span class="bullet"></span><span class="text">Comment retrouver la confiance en moi ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment puis-je me libérer de mes blessures passées ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Quelles croyances limitantes m'empêchent d'avancer sereinement ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Pourquoi me sens-je triste ou fatigué(e) en ce moment ?</span></li>
+                                <li><span class="bullet"></span><span class="text">D'où proviennent mes blessures profondes ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment retrouver la paix intérieure et apaiser mon esprit ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment puis-je couper les liens toxiques avec une personne spécifique ?</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="face front"><h3>🔮 Spiritualité, Intuition et Mission</h3></div>
+                        <div class="face back">
+                            <ul class="questions">
+                                <li><span class="bullet"></span><span class="text">Quelle est la prochaine étape dans mon cheminement spirituel ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment augmenter mon taux vibratoire pour attirer le positif ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment puis-je me reconnecter plus profondément à mon âme ?</span></li>
+                                <li><span class="bullet"></span><span class="text">De quoi mon âme a-t-elle réellement besoin en ce moment ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Quel est le nœud karmique qui me freine dans mon évolution ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Quel message mes guides spirituels souhaitent-ils que je reçoive ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Quelle est ma véritable mission dans la vie ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Suis-je sur la bonne voie actuellement ?</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-wrap">
+                    <div class="card">
+                        <div class="face front"><h3>🧭 Clarté, Décision et Alignement</h3></div>
+                        <div class="face back">
+                            <ul class="questions">
+                                <li><span class="bullet"></span><span class="text">Que puis-je faire pour sortir de cette période de stagnation ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Comment être plus efficace et aligné(e) dans mon travail ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Mon travail actuel est-il vraiment aligné avec mes aspirations ?</span></li>
+                                <li><span class="bullet"></span><span class="text">Que puis-je faire pour avancer sereinement dans la direction que je désire ?</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tip">
+                <div class="tip-box">
+                    <h3 class="tip-title">💬 Astuce EF</h3>
+                    <p class="tip-text">Tire une carte par question ou choisis une thématique par semaine pour nourrir ta pratique et explorer tes véritables réponses intérieures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
