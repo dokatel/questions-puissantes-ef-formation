@@ -130,12 +130,12 @@
                     </div>
                 </div>
             </div>
-            <div class="tip">
+            <--<div class="tip">
                 <div class="tip-box">
                     <h3 class="tip-title">💬 Astuce EF</h3>
                     <p class="tip-text">Tire une carte par question ou choisis une thématique par semaine pour nourrir ta pratique et explorer tes véritables réponses intérieures.</p>
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
 </body>
